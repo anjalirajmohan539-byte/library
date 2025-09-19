@@ -31,7 +31,7 @@ if(isset($_POST['button']))
 //			$insert_books="INSERT INTO `add_book`(`b_title`, `b_author`, `b_category`, `b_publish`, `b_image`,  `b_price`, `b_description`, `book_count`) VALUES ('$title','$author','$category','$publish','$image',$price,'$des',$count)";
 			
 			$insert_books="INSERT INTO `add_book`(`b_title`, `b_author`, `b_category`, `b_publish`, `b_image`,  `b_price`, `b_description`, `book_count`) VALUES (?,?,?,?,?,?,?,?)";
-			var_dump($insert_books);
+			// var_dump($insert_books);
 			
 			$stmt=$con->prepare($insert_books);
 			$stmt->bind_param("sssssisi",$title,$author,$category,$publish,$image,$price,$des,$count);

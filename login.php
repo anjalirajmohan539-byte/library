@@ -21,7 +21,7 @@ if(isset($_SESSION['error']))
 	<div class="container-fluid login_background">
 	<div class="container ll">
 		<div class="login">
-		<h1>LOGI</h1>
+		<h1>LOGIN</h1>
 		<form action="login_action.php" method="post"  onSubmit="return validate();" >
 			<label id="error"><?php echo $emailerror;?></label>
 		<input id="email" type="text" class="email" name="user" placeholder="Username/Email" oninput="remove_validation('email','eemail');">

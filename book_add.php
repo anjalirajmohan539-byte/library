@@ -9,30 +9,30 @@
 <body>
 	
   <h1>ADD BOOK</h1>
-
+<form action="add_book_action.php" method="post" enctype="multipart/form-data" onSubmit="return add_book_validation();">
   <div class="container">
    
     <div class="col-6 left-box">
       <h2>ADD</h2>
-      <input type="file">
+     <input type="file" id="image" name="image" oninput="remove_book_validation('image');">
     </div>
 
     
-		<form action="add_book_action.php" method="post"  enctype="multipart/form-data" onSubmit="return add_book_validation();">
+		
 
 			<div class="col-6 right-box">
 			<h5>Title</h5>
-      <input type="text" name="title" id="title" placeholder="title">
+      <input type="text" name="title" id="title" placeholder="Title" oninput="remove_book_validation('title');">
 			<h5>Author</h5>
-      <input type="text" name="author" id="author" placeholder="author">
+      <input type="text" name="author" id="author" placeholder="Author" oninput="remove_book_validation('author');">
 
          <h5>Description</h5>
-      <textarea placeholder="description" id="des" name="des"></textarea>
+      <textarea class="des" name="des"></textarea>
 
 			
 			 
 		  <h5>Price</h5>
-        <input type="text" name="price" id="price" placeholder="Price :">
+        <input type="number" name="rate" id="rate" placeholder="Price: " oninput="remove_book_validation('rate');">
       
 			
 			
@@ -45,13 +45,13 @@
 			
 			<div class="inline-inputs">
 		
-        <input type="number" name="count" id="count" placeholder="Count :">
+        <input type="number" name="count" id="count" placeholder="Count: ">
 		  
-        <input type="date" name="date" id="date" placeholder="published Date">
+        <input type="date" name="date" placeholder="Published date" id="published_date" oninput="remove_book_validation('published_date');">
       </div>
  
 			<h5>Genre</h5>
-		<select name="category" id="category">
+		<select name="category" id="category" onChange="remove_book_validation('category');">
 			<option value="select">Genre</option>
             <option value="comedy">Comedy</option>
             <option value="thriller">Thriller</option>
@@ -60,8 +60,8 @@
 			<option value="other">Other</option>
         </select>
 
-      <button type="submit">add</button>
-			</form>
+      <input id="submit" type="submit" value="Add" name="button">
+</form>
     </div>
   </div>
 </body>

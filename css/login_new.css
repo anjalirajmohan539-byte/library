@@ -1,0 +1,146 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+	transition: 0.3s all;
+	font-family: 'Open Sans', sans-serif;
+}
+	   .col-1 {width: 8.333333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-2 {width: 16.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-3 {width: 25%; height: auto; float: left; padding: 15px;}
+	   .col-4 {width: 33.33333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-5 {width: 41.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-6 {width: 50%; height: auto; float: left; padding: 15px;}
+	   .col-7 {width: 58.33333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-8 {width: 66.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-9 {width: 75%; height: auto; float: left; padding: 15px;}
+	   .col-10 {width: 83.33333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-11 {width: 91.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-12 {width: 100%; height: auto; float: left; padding: 15px;}
+	   
+	   .container-fluid{ width: 100%; }
+	   
+	   .container{max-width:1100px;margin: auto;}
+	   
+	   .img-fluid{width: 100%; height:auto;}
+ 
+		.cl{clear:both;}
+a {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  text-decoration: none;
+}
+
+body 
+{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container 
+{
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  padding: 60px;
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.login-container h2 
+{
+  margin-bottom: 20px;
+  color:white;
+  font-size:30px;
+}
+
+.group 
+{
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.group label 
+{
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.group input 
+{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+.group input:focus 
+{
+  border-color: #2575fc;
+  box-shadow: 0 0 5px rgba(37, 117, 252, 0.5);
+}
+
+button 
+{
+  width: 100%;
+  padding: 12px;
+  background: #2575fc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover 
+{
+  background: #1a5ed7;
+}
+
+.register-text 
+{
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.register-text a 
+{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register-text a:hover 
+{
+  text-decoration: underline;
+}
+
+
+#eemail,#error_password
+{
+	font-weight: normal;
+	font-size:12px;
+	color: red;
+}
+
+
+.error_email
+{
+	margin-top:-5px;
+}
+
+
+.error_password1
+{
+	margin-top:-5px;
+}

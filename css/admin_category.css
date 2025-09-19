@@ -1,0 +1,307 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+	transition: 0.3s all;
+	font-family: 'Open Sans', sans-serif;
+}
+	   .col-1 {width: 8.333333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-2 {width: 16.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-3 {width: 25%; height: auto; float: left; padding: 15px;}
+	   .col-4 {width: 33.33333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-5 {width: 41.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-6 {width: 50%; height: auto; float: left; padding: 15px;}
+	   .col-7 {width: 58.33333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-8 {width: 66.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-9 {width: 75%; height: auto; float: left; padding: 15px;}
+	   .col-10 {width: 83.33333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-11 {width: 91.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-12 {width: 100%; height: auto; float: left; padding: 15px;}
+	   
+	   .container-fluid{ width: 100%; }
+	   
+	   .container{max-width:1100px;margin: auto;}
+	   
+	   .img-fluid{width: 100%; height:auto;}
+ 
+		.cl{clear:both;}
+a {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  text-decoration: none;
+}
+
+
+
+.banner
+{
+	background-image:url("../images/book_blur_4-Picsart-AiImageEnhancer.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width:100%;
+	padding:300px;
+}
+.logo
+{
+	margin-top:-300px;
+}
+.logo img
+{
+	width: 100%;
+}
+.banner h1
+{
+	margin-top:100px;
+	text-align: center;
+	font-size:100px;
+	font-weight: bold;
+	color:#ff8c1a;
+	text-shadow:3px 5px 3px black;
+	font-family:Comic Sans MS;
+}
+
+.categorys
+{
+
+	text-align: center;
+	margin-bottom:100px;
+}
+.categorys h3
+{
+	margin-top:30px;
+	margin-bottom:5px;
+	text-align: center;
+	color:  #663300;
+}
+.categorys_1 h2
+{
+	color: #ff8000;
+	margin-bottom:100px;
+}
+
+.categorys_1 h3
+{
+	margin-top:30px;
+	text-align: center;
+	color:  #663300;
+}
+.categorys_2 h2
+{
+	color: #ff8000;
+	margin-bottom:100px; 
+}
+
+.categorys_2 h3
+{
+	margin-top:30px;
+	text-align: center;
+	color:  #663300;
+}
+.categorys h2
+{
+	margin-top:100px;
+	color: #ff8000;
+	margin-bottom:100px;
+}
+.categorys img
+{
+	width:50%;
+}
+
+.categorys_1
+{
+	margin-top:100px;
+	text-align: center;
+	margin-bottom:100px;
+}
+.categorys_1 img
+{
+	width:74%;
+}
+.categorys_2
+{
+	margin-top:100px;
+	text-align: center;
+	margin-bottom:100px;
+}
+#arrow_1 
+{
+	width:4%;
+	float: right;
+	margin-top:-100px;
+}
+#arrow_2 
+{
+	width:4%;
+	float: right;
+	margin-top:-100px;
+}
+#arrow_3
+{
+	width:8%;
+	margin-left:100px;
+	margin-top:30px;
+	margin-bottom:100px;
+}
+.book_1 h3
+{
+	font-size:20px;
+	color: #663300;
+}
+.book_1 h4
+{
+	font-size:15px;
+	font-weight: normal;
+}
+.book_1 p
+{
+	margin-bottom:20px;
+}
+.book_2 h3
+{
+	font-size:20px;
+	color: #663300; 
+}
+.book_2 h4
+{
+	font-size:15px;
+	font-weight: normal;
+}
+.book_3 img
+{
+	padding-top:-80px;
+}
+.book_3 h3
+{
+	font-size:20px;
+	color: #663300;
+}
+.book_3 h4
+{
+	font-size:15px;
+	font-weight: normal;
+}
+.book_4 h3
+{
+	font-size:20px;
+	color: #663300;
+}
+.book_4 img
+{
+	padding-top:-50%;
+}
+
+.book_4 h4
+{
+	font-size:15px;
+	font-weight: normal;
+}
+.books img
+{
+	width:70%;
+	margin-top:100px;
+}
+.books 
+{
+	margin-top:700px;
+	text-align:center;
+}
+.books h3
+{
+	color: #4d2600;
+}
+.books h1
+{
+	text-align: center;
+	font-size:60px;
+	margin-bottom:80px;
+	color: #ff8c1a;
+	text-shadow: 2px 0 2px black;
+}
+.books hr
+{
+	border:2px solid #4d2600;
+	width:250px;
+	margin-top:-70px;
+	margin-bottom:50px;
+	margin-left:38%;
+}
+.book_2 img
+{
+	margin-top:20px;
+}
+.book_4 img
+{
+	margin-top:50px;
+}
+.book_6 img
+{
+	margin-top:69px;
+}
+.book_8 img
+{
+	margin-top:50px;
+}
+.book_9 img
+{
+	width:70%;
+}
+.books h3
+{
+	margin-top:20px;
+}
+.books p
+{
+	margin-top:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

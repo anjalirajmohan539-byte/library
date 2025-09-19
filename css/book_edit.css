@@ -1,0 +1,162 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+	transition: 0.3s all;
+	font-family: 'Open Sans', sans-serif;
+}
+	   .col-1 {width: 8.333333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-2 {width: 16.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-3 {width: 25%; height: auto; float: left; padding: 15px;}
+	   .col-4 {width: 33.33333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-5 {width: 41.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-6 {width: 50%; height: auto; float: left; padding: 15px;}
+	   .col-7 {width: 58.33333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-8 {width: 66.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-9 {width: 75%; height: auto; float: left; padding: 15px;}
+	   .col-10 {width: 83.33333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-11 {width: 91.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-12 {width: 100%; height: auto; float: left; padding: 15px;}
+	   
+	   .container-fluid{ width: 100%; }
+	   
+	   .container{max-width:1100px;margin: auto;}
+	   
+	   .img-fluid{width: 100%; height:auto;}
+ 
+		.cl{clear:both;}
+a {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+.book_form
+{
+	background-color:#f3f3f3;
+	padding-bottom:10%;
+}
+.form form
+{
+	border:2px solid gray;
+	height:630px;
+	width:90%;
+	border-radius:30px;
+	margin-left:50px;
+	background-color:lightgray;
+}
+.form input,textarea
+{
+	width:80%;
+	padding:10px;
+	margin:10px;
+	font-size:15px;
+	color:black;
+	outline: none;
+	border-radius:5px;
+}
+.form h1
+{
+	padding-top:105px;
+	font-size:60px;
+	color:black;
+	text-align: center;
+}
+.form form
+{
+	margin-top:50px;
+}
+#submit
+{
+	width:30%;
+	margin-top:30px;
+	text-align: center;
+}
+#box p
+{
+	margin-top: -25px;
+	font-size:12px;
+}
+#satement
+{
+	margin-right:300px;
+}
+.form p2
+{
+	font-size:12px;
+}
+.form h2
+{
+	font-size:15px;
+	color: black;
+	margin-right:280px;
+	font-weight:bold;
+}
+.imgg
+{
+	margin-top:70px;
+	margin-left:90px;
+	font-weight:bold;
+}
+.book_image
+{
+	border:2px solid gray;
+	border-radius:5px;
+	margin-top:50px;
+	width:66% !important;
+	margin-left:100px;
+	text-align: center;
+}
+#number
+{
+	margin-top:20px;
+	width:63%;
+}
+#category
+{
+	width:70%;
+	padding:10px;
+	border-radius:5px;
+	margin-top:10px;
+}
+.pr
+{
+	margin-top:-30px;
+}
+.ti
+{
+	margin-top:-80px;
+}
+.au
+{
+	margin-top:10px;
+}
+.gen
+{
+	margin-top:10px;
+}
+.des
+{
+	height:100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

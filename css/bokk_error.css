@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+	transition: 0.3s all;
+	font-family: 'Open Sans', sans-serif;
+}
+	   .col-1 {width: 8.333333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-2 {width: 16.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-3 {width: 25%; height: auto; float: left; padding: 15px;}
+	   .col-4 {width: 33.33333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-5 {width: 41.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-6 {width: 50%; height: auto; float: left; padding: 15px;}
+	   .col-7 {width: 58.33333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-8 {width: 66.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-9 {width: 75%; height: auto; float: left; padding: 15px;}
+	   .col-10 {width: 83.33333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-11 {width: 91.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-12 {width: 100%; height: auto; float: left; padding: 15px;}
+	   
+	   .container-fluid{ width: 100%; }
+	   
+	   .container{max-width:1100px;margin: auto;}
+	   
+	   .img-fluid{width: 100%; height:auto;}
+ 
+		.cl{clear:both;}
+a {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  text-decoration: none;
+}
+
+
+.banner
+{
+	text-align: center;
+}
+.banner h1
+{
+	font-size:200px;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: absolute;
+	top:64%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	margin:0;
+	background:url("../images/wallpaper_2.jpg") 50% 50%;
+	background-size: cover;
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+
+}
+.banner h4
+{
+	margin-top:220px;
+	font-size:20px;
+}
+.banner p
+{
+	margin-top:10px;
+	font-weight: normal;
+	color:darkgray;
+}
+.banner button
+{
+	margin-top:20px;
+	padding:10px 35px;
+	background-image: url("../images/wallpaper_2_3.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color:white;
+	text-shadow:2px 0 2px black;
+}
+.banner img
+{
+	width:17%;
+	margin-top:180px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

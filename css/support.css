@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+	transition: 0.3s all;
+	font-family: 'Open Sans', sans-serif;
+}
+	   .col-1 {width: 8.333333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-2 {width: 16.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-3 {width: 25%; height: auto; float: left; padding: 15px;}
+	   .col-4 {width: 33.33333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-5 {width: 41.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-6 {width: 50%; height: auto; float: left; padding: 15px;}
+	   .col-7 {width: 58.33333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-8 {width: 66.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-9 {width: 75%; height: auto; float: left; padding: 15px;}
+	   .col-10 {width: 83.33333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-11 {width: 91.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-12 {width: 100%; height: auto; float: left; padding: 15px;}
+	   
+	   .container-fluid{ width: 100%; }
+	   
+	   .container{max-width:1100px;margin: auto;}
+	   
+	   .img-fluid{width: 100%; height:auto;}
+ 
+		.cl{clear:both;}
+a {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  text-decoration: none;
+}
+
+
+.banner
+{
+	background-color:#f3f3f3;
+	width:100%;
+	padding-bottom: 200%;
+}
+.logo img
+{
+	width: 100%;
+}
+.menu a{
+	color:black;
+	padding-left:20px;
+}
+.menu{
+	float: right;
+	font-weight: bold;
+	padding-top:80px;
+}
+.banner h1
+{
+	padding-top:300px;
+	text-align: center;
+	margin-bottom:100px;
+	font-size:100px;
+	text-shadow:5px 0  3px black;
+	color:#ff8c1a;
+}
+.menu a:hover
+{
+	text-decoration:underline 3px;
+	text-decoration-color:orange;
+}
+.banner h2
+{
+	font-size:35px;
+	font-family:Comic Sans MS;
+	color:#1a1a1a;
+}
+.banner p
+{
+	line-height: 1.7;
+}
+.h_1
+{
+	margin-top:50px;
+	margin-bottom:30px;
+}
+.h_2
+{
+	margin-top:50px;
+	margin-bottom:10px;
+}
+.banner h3
+{
+	margin-top:30px;
+	font-size:15px;
+	font-weight:bold;
+	color:#0066ff;
+}
+.banner h3:hover
+{
+	text-decoration-color:darkorange;
+	text-decoration: underline;
+}
+.banner b
+{
+	color: #0066ff;
+}
+
+
+
+
+
+
+
+

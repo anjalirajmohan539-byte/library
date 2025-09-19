@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+	transition: 0.3s all;
+	font-family: 'Open Sans', sans-serif;
+}
+	   .col-1 {width: 8.333333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-2 {width: 16.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-3 {width: 25%; height: auto; float: left; padding: 15px;}
+	   .col-4 {width: 33.33333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-5 {width: 41.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-6 {width: 50%; height: auto; float: left; padding: 15px;}
+	   .col-7 {width: 58.33333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-8 {width: 66.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-9 {width: 75%; height: auto; float: left; padding: 15px;}
+	   .col-10 {width: 83.33333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-11 {width: 91.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-12 {width: 100%; height: auto; float: left; padding: 15px;}
+	   
+	   .container-fluid{ width: 100%; }
+	   
+	   .container{max-width:1100px;margin: auto;}
+	   
+	   .img-fluid{width: 100%; height:auto;}
+ 
+		.cl{clear:both;}
+a {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  text-decoration: none;
+}
+
+.book_form
+{
+	background-image:url("../images/background_2.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width:100%;
+	padding:180px;
+	
+}
+.form
+{
+	text-align:center;
+	background-color: #804000;
+	opacity:0.7;
+	margin-top:390px;
+	width:35%;
+	height:850px;
+	margin: auto;
+  padding: 10px;
+
+}
+
+.form input
+{
+	width:75%;
+	padding:10px;
+	margin:10px;
+	font-size:15px;
+	color:black;
+	outline: none;
+	border-radius:5px;
+}
+.form h1
+{
+	margin-top:30px;
+	font-size:50px;
+	color: white;
+	font-weight: bold;
+}
+.form form
+{
+	margin-top:30px;
+}
+
+#submit
+{
+	width:30%;
+}
+#box p
+{
+	margin-top: -25px;
+	font-size:12px;
+}
+#satement
+{
+	margin-right:300px;
+}
+.form p2
+{
+	font-size:12px;
+}
+#category
+{
+	margin-right:200px;
+}
+.form h2
+{
+	font-size:15px;
+	color: white;
+	margin-right:300px;
+}
+#category
+{
+	width:75%;
+	padding:10px;
+	border-radius:5px;
+	margin-left:65px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.pub
+{
+	margin-left:50px;
+}
+.des
+{
+	height:100px;
+	width:76%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

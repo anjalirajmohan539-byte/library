@@ -51,7 +51,7 @@ if(isset($_SESSION['error']))
 
     <button type="submit" name="button">Login</button>
       
-	<p class="register-text">Don’t have an account? <a href="t_sign.php">Register</a></p>
+	<p class="register-text">Don’t have an account? <a href="index_registration.php">Register</a></p>
 </form>
     </div>
 </body>

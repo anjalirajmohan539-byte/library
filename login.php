@@ -43,13 +43,12 @@ if(isset($_SESSION['error']))
 		<li>
 			<input type="checkbox" id="satement">
 				<a class="one" href="forgot.php">forgot password ?</a>
-			</label>
 			</li>
 		</ul>
 		<input id="login" type="submit" value="LOGIN" name="submit">
 			
 		</form>
-		<p2>Don't have an account ? <a href="t_sign.php">Register here</a></p2>
+		<p2>Don't have an account ? <a href="index_registration.php">Register here</a></p2>
 		</div>
 		</div>
 	</div>

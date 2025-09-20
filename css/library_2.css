@@ -35,11 +35,22 @@ a {
   text-decoration: none;
 }
 
-
+body
+{
+margin:0;
+background: #242c42;
+color:#e6eef8;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .ll
 {
-	margin-top:250px;
+	margin-top:100px;
 }
 .login_background a
 {
@@ -52,7 +63,6 @@ a {
 .login
 {
 	text-align:center;
-	background:linear-gradient(to bottom, #6600ff 25%, #ff66ff 100%);
 	border-radius:15px;
 	width:40%;
 	height:450px;

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Sign Up — Registration</title>
-<link href="index_registration.css" rel="stylesheet">
+<link href="css/index_registration.css" rel="stylesheet">
 </head>
 <body>
 
@@ -12,10 +12,10 @@
 <h1>Create your account</h1>
 <p class="lead">Join us — quick signup and secure access.</p>
 </div>
-</div>
 
 
-<form id="regForm" novalidate>
+
+<form id="regForm" action="#" method="post">
 <div class="full">
 <label for="fullname">Full name</label>
 <input id="fullname" name="fullname" type="text" placeholder="Anjali Rajmohan" required />
@@ -49,8 +49,6 @@
 <div>
 <label for="password">Password</label>
 <input id="password" name="password" type="password" placeholder="Create a strong password" required />
-<div class="small" id="pwdStrength">Strength: —</div>
-<div class="error" id="pwdErr"></div>
 </div>
 
 

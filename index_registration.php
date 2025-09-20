@@ -6,8 +6,10 @@
 <link href="css/index_registration.css" rel="stylesheet">
 </head>
 <body>
-
-<div class="container">
+<div class="heading">
+<h2>Registration</h2>
+</div>
+<div class="col-6 container">
 <section class="left">
 <h1>Create your account</h1>
 <p class="lead">Join us — quick signup and secure access.</p>
@@ -16,7 +18,14 @@
 
 
 <form id="regForm" action="#" method="post">
+<div class="col-6 full">
+
 <div class="full">
+<label for="avatar">Profile photo</label>
+<input id="avatar" name="avatar" type="file" accept="image/*" />
+<div class="small">Upload a square photo.</div>
+</div>
+
 <label for="fullname">Full name</label>
 <input id="fullname" name="fullname" type="text" placeholder="Anjali Rajmohan" required />
 <div class="error" id="nameErr"></div>
@@ -57,6 +66,15 @@
 <input id="confirm" name="confirm" type="password" placeholder="Confirm password" required />
 <div class="error" id="confirmErr"></div>
 </div>
+
+<div class="full row">
+<button type="submit" class="btn">Create account</button>
+<div style="flex:1" aria-hidden></div>
+</div>
+
+</form>
+
+
 </div>
 </body>
 </html>

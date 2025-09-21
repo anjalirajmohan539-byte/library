@@ -2,8 +2,8 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Sign Up — Registration</title>
-<link href="css/index_registration.css" rel="stylesheet">
+<title>Student — Registration</title>
+<link href="css/student_registration.css" rel="stylesheet">
 </head>
 <body>
  <div class="container">
@@ -26,7 +26,7 @@
       <div class="brand">
         
         <div>
-          <h1>Create your account</h1>
+          <h1>Student Create your account</h1>
           <p class="lead">Join us — quick signup and secure access.</p>
         </div>
       </div>
@@ -40,11 +40,32 @@
         </div>
 
 
-        <div class="full">
+        <div>
           <label for="fullname">Full name</label>
-          <input id="fullname" name="fullname" type="text" placeholder="Anjali Rajmohan" required />
+          <input id="fullname" name="fullname" type="text" placeholder="Anjali" required />
           <div class="error" id="nameErr"></div>
         </div>
+
+        <div>
+          <label for="fullname">Last name</label>
+          <input id="fullname" name="fullname" type="text" placeholder="Rajmohan" required />
+          <div class="error" id="nameErr"></div>
+        </div>
+
+
+        <div>
+          <label for="class">Class</label>
+          <input id="class" name="class" type="text" placeholder="10" required />
+          <div class="error" id="nameErr"></div>
+        </div>
+
+        <div>
+          <label for="department">Department</label>
+          <input id="department" name="department" type="text" placeholder="A section" required />
+          <div class="error" id="nameErr"></div>
+        </div>
+
+
 
         <div>
           <label for="email">Email</label>
@@ -58,33 +79,36 @@
         </div>
 
         <div>
-          <label for="confirm">Confirm password</label>
-          <input id="confirm" name="confirm" type="password" placeholder="Confirm password" required />
-          <div class="error" id="confirmErr"></div>
-        </div>
-
-        <div>
           <label for="password">Password</label>
           <input id="password" name="password" type="password" placeholder="Create a strong password" required />
           <div class="small" id="pwdStrength">Strength: —</div>
           <div class="error" id="pwdErr"></div>
         </div>
 
-
+        <div>
+          <label for="confirm">Confirm password</label>
+          <input id="confirm" name="confirm" type="password" placeholder="Confirm password" required />
+          <div class="error" id="confirmErr"></div>
+        </div>
 
         <div>
-          <label for="role">Account type</label>
-          <select id="role" name="role">
-            <option value="student">Student</option>
-            <option value="teacher">Teacher</option>
-            <option value="librarian">Librarian</option>
-          </select>
+          <label for="dob">Date of Birth</label>
+          <input id="dob" name="dob" type="date" placeholder="Confirm password" required />
+          <div class="error" id="confirmErr"></div>
+        </div>
+
+        <div>
+          <label for="gender">Gender</label>
+				  <input type="radio" id="male" value="male" name="male_n" >
+				  <h3 class="male">Male</h3>
+				  <input type="radio" id="female" value="female" name="male_n">
+				  <h3 class="male">Female</h3>
         </div>
 
 
         <div class="full">
-          <label for="bio">Short bio (optional)</label>
-          <input id="bio" name="bio" type="text" placeholder="A short line about you" />
+          <label for="bio">Address</label>
+          <textarea></textarea>
         </div>
 
         
@@ -96,7 +120,7 @@
 
       </form>
 
-      <div class="footer">Already have an account? <a href="#" style="color:var(--accent);text-decoration:none">Sign in</a></div>
+      <div class="footer">Already have an account? <a href="login_new.php" style="color:var(--accent);text-decoration:none">Sign in</a></div>
     </section>
 
   </div>

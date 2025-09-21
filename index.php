@@ -16,9 +16,9 @@
 		<a href="#">Home</a>
 		<a href="home_about.php">About</a>
 		<a href="book_error.php">Book</a>
-		<a href="login.php">Login</a>
-		<a href="t_sign.php">Teacher Signup</a>
-		<a href="s_sign.php">Student Signup</a>
+		<a href="login_new.php">Login</a>
+		<a href="teacher_registration.php">Teacher Signup</a>
+		<a href="student_registration.php">Student Signup</a>
 		</div>
 		<div class="cl"></div>
 			<div class="banner_title">

@@ -86,19 +86,23 @@ a {
       width:46px;height:46px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#50e3c2);display:flex;align-items:center;justify-content:center;font-weight:700;color:#071026
     }
     h1{margin:0;font-size:20px}
+    h3{font-size:12px;color:var(--muted);font-weight:normal;display: block;margin-left:30px;}
     p.lead{margin:0;color:var(--muted)}
 
     form{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:8px}
-    .full{grid-column:1/-1}
+    .full{grid-column:1/-1;}
 
     label{display:block;font-size:12px;color:var(--muted);margin-bottom:6px}
-    input[type="text"],input[type="email"],input[type="password"],select{
+    input[type="text"],input[type="email"],input[type="password"],input[type="date"],textarea,select{
       width:100%;padding:10px 12px;border-radius:10px;border:1px solid rgba(255,255,255,0.04);background:var(--glass);color:inherit;font-size:14px;outline:none
     }
     input[type="file"]{color:var(--muted)}
 
+    .male{margin-top:-12px;}
+    
     .row{display:flex;gap:8px}
-    .small{font-size:12px;color:var(--muted)}
+    .small{font-size:12px;color:var(--muted);margin-top:10px;}
+
 
     .card-right{
       padding:40px;border-radius:var(--radius);background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.03);display:flex;flex-direction:column;gap:15px;align-items:center;justify-content:center

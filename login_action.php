@@ -4,7 +4,7 @@ include('database.php');
 
 if(isset($_POST['submit']))
 {
-	$name=$_POST['user'];
+	$name=$_POST['email'];
 	$pass=$_POST['password'];
 	
 	$select_login="SELECT `l_id`, `l_username`, `l_password`, `l_usertype` FROM `login` WHERE l_username='$name' AND l_password='$pass'";
@@ -17,8 +17,8 @@ if(isset($_POST['submit']))
 	{
 		if(mysqli_num_rows($sl_statement)<1)
 		{
-			$_SESSION['error']="incorrect user or password";
-			header('location:login.php');
+			$_SESSION['error']="incorrect email or password";
+			header('location:login_action.php');
 		}
 		else
 		{

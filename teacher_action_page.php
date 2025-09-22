@@ -2,17 +2,17 @@
 
 include('database.php');
 
-if(isset($_POST['signup']))
+if(isset($_POST['submit']))
 {
 	$image=$_FILES['image']['name'];
-	$name=$_POST['name'];
+	$name=$_POST['fullname'];
 	$age=$_POST['age'];
-	$email=$_POST['user'];
-	$address=$_POST['add'];
-	echo $pass=$_POST['password'];
-	$phone=$_POST['number'];
+	$email=$_POST['emaill'];
+	$address=$_POST['address'];
+	$pass=$_POST['password'];
+	$phone=$_POST['phone'];
 	$class=$_POST['class'];
-	$department=$_POST['class1'];
+	$department=$_POST['department'];
 }
 
 
@@ -72,5 +72,3 @@ else
 		}
 	}
 }
-
-?>

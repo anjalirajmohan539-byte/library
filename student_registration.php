@@ -55,8 +55,8 @@
 
 
          <div class="full">
-          <label for="bio" name="address">Address</label>
-          <textarea id="address" onkeyup="remove_validation('addressErr');"></textarea>
+          <label for="bio">Address</label>
+          <textarea id="address" name="address" onkeyup="remove_validation('addressErr');"></textarea>
           <div class="error" id="addressErr"></div>
         </div>
 
@@ -96,7 +96,7 @@
 
         <div>
           <label for="email">Email</label>
-          <input id="email" name="email" type="email" placeholder="you@example.com" oninput="remove_validation('emailErr');">
+          <input id="email" name="emaill" type="email" placeholder="you@example.com" oninput="remove_validation('emailErr');">
           <div class="error" id="emailErr"></div>
         </div>
 
@@ -237,7 +237,7 @@
       if(!ok) return;
 
       // mock success — in a real app you'd POST to your backend
-      alert('Account created ');
+    
       form.reset();
       avatarBox.innerHTML = '<div style="text-align:center;padding:10px;color:var(--muted)"><div style="font-size:18px;font-weight:700">Welcome!</div><div class="small">Upload a profile photo to preview here.</div></div>';
       pwdStrength.textContent = 'Strength: —';

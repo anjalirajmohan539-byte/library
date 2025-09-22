@@ -59,7 +59,7 @@ if(isset($_SESSION['error']))
 
 
         <div class="full row">
-          <button type="submit" class="btn">Login</button>
+          <button type="submit" name="submit" id="submit" class="btn">Login</button>
           <div style="flex:1" aria-hidden></div>
         </div>
 

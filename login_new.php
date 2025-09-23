@@ -40,9 +40,8 @@ if(isset($_SESSION['error']))
         </div>
       </div>
 
-      <form id="regForm" action="login_action.php" method="post" onSubmit="remove_validation();">
+      <form id="regForm" action="login_action.php" method="post" enctype="multipart/form-data" onSubmit="return validation();">
 
-      <div class="error" id="error"></div>
 
         <div class="full">
           <label for="email">Email / Username</label>
@@ -74,53 +73,45 @@ if(isset($_SESSION['error']))
 	<div>
 </body>
 <script>
-	function validate()
-		{
-			let em=document.getElementById("email");
-			let pas=document.getElementById("password");
-			let emm=document.getElementById("emailErr");
-			let error_password=document.getElementById("pwdErr");
-			let error=document.getElementById("error");
-			let f=0;
 
-			if(em.value == "")
-				{
-					
-					em.style.border="1px solid red";
-					em.focus();
-					em.style.outline="none";
-					emm.innerHTML="Enter your Email";
-					f=1;
-				}
+function validation()
+{
+	let email=document.getElementById("email");
+	let password=document.getElementById("password");
+	let email_error=document.getElementById("emailErr");
+	let password_error=document.getElementById("pwdErr");
+	let f=0;
+
+
+	if(email.value == "")
+	{
+		email.style.border="1px solid red";
+		email.focus();
+		email.style.outline="none";
+		email_error.innerHTML="Enter your Email";
+		f=1;
+	}
+
+	if(password.value == "")
+	{
+		password.style.border="1px solid red";
+		password.focus();
+		password.style.outline="none";
+		password_error.innerHTML="Enter your Password";
+		f=1;
+	}
+
 			
-			
-			if(pas.value == "")
-				{
-					pas.style.border="1px solid red";
-					pas.focus();
-					pas.style.outline="none";
-					error_password.innerHTML="Enter your Password";
-					f=1;
-				}
-			
-			if(error.value == "")
-				{
-					error.style.
-				}
-			
-			
-			if(f==0)
-				{
-					return true;
-				}
-			else
-				{
-					return false;
-				}
-		}
-		
-//		remove_validation('email','eemail')
-//		remove_validation('password','error_password')
+	if(f==0)
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
+	
+
 		function remove_validation(fieldId,errormessage)
 		{
 			
@@ -131,5 +122,8 @@ if(isset($_SESSION['error']))
 			emm.innerHTML="";
 			
 		}
+
+}
+
 	</script>
 </html>
